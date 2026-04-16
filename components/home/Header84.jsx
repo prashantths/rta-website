@@ -39,7 +39,7 @@ export function Header84() {
             <h1 className="text-white text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 md:mb-8">
               You do not have a{" "}
               <span style={{ color: "var(--accent)" }}>recruiting problem</span>.
-              <br className="hidden lg:block" />
+              <br />
               You have an{" "}
               <span style={{ color: "var(--accent)" }}>infrastructure problem</span>.
             </h1>
