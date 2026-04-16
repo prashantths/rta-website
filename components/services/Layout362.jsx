@@ -23,7 +23,7 @@ const services = [
   },
   {
     tag: "Partnership",
-    heading: "Fractional TA Partner",
+    heading: "Fractional Talent Acquisition Partner",
     sub: "Embedded support for companies scaling their hiring function.",
     bullets: [
       "Ongoing Talent Advisor-on-demand",

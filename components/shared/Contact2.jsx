@@ -203,7 +203,7 @@ export function Contact2() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="sprint">Talent Infrastructure Sprint (30-day)</SelectItem>
-                    <SelectItem value="fractional">Fractional TA Partner (ongoing)</SelectItem>
+                    <SelectItem value="fractional">Fractional Talent Acquisition Partner (ongoing)</SelectItem>
                     <SelectItem value="not-sure">Not sure yet — let&apos;s talk</SelectItem>
                   </SelectContent>
                 </Select>
