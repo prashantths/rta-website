@@ -5,7 +5,6 @@ import React from "react";
 import { RxChevronRight } from "react-icons/rx";
 
 const stats = [
-  { number: "~300", label: "Hires completed across four divisions with zero agency support" },
   { number: "85–90%", label: "Offer acceptance rate, against an industry average of 65–70%" },
   { number: "60%", label: "Of all hires sourced through outbound, not inbound applications" },
   { number: "20–35%", label: "Improvement in hiring velocity after deploying AI workflows" },
@@ -19,7 +18,7 @@ const proofCards = [
   },
   {
     heading: "Eliminated agency dependency",
-    body: "Approximately 300 hires over three years with no external agency spend. Built the sourcing operation from scratch so the organization owned its pipeline entirely.",
+    body: "A multi-year hiring program executed with no external agency spend. Built the sourcing operation from scratch so the organization owned its pipeline entirely.",
     dark: true,
   },
   {
@@ -49,11 +48,11 @@ export function Layout198() {
             </div>
             <div>
               <p className="md:text-md mb-6" style={{ fontFamily: "'Lora', Georgia, serif" }}>
-                At the Canadian Partnership Against Cancer, I was hired as the
-                sole Talent Advisor to build the Talent Acquisition function from
-                scratch. No process existed. No infrastructure. No sourcing
-                operation. Four divisions, pan-Canadian scope, three years.
-                Here is what that looked like.
+                At a federally-funded pan-Canadian nonprofit in the healthcare
+                space, I was hired as the sole Talent Advisor to build the Talent
+                Acquisition function from scratch. No process existed. No
+                infrastructure. No sourcing operation. Multiple divisions,
+                nationwide scope. Here is what that looked like.
               </p>
               <Link
                 href="/about"
@@ -67,7 +66,7 @@ export function Layout198() {
         </div>
 
         {/* Stats row */}
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-12 md:mb-16">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 mb-12 md:mb-16">
           {stats.map((s) => (
             <div
               key={s.number}

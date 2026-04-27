@@ -3,7 +3,6 @@
 import React from "react";
 
 const stats = [
-  { number: "300+", label: "Hires Sourced Outbound", sub: "in the last 3 years" },
   { number: "85–90%", label: "Offer Acceptance Rate", sub: "across all engagements" },
   { number: "60%", label: "Sourced Without Agencies", sub: "proactive, outbound talent" },
   { number: "20–35%", label: "Faster Hiring Velocity", sub: "vs unstructured process" },
@@ -31,7 +30,7 @@ export function Stats55() {
           </div>
 
           {/* Stats grid */}
-          <div className="grid grid-cols-2 gap-4 md:gap-6">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6">
             {stats.map((s, i) => (
               <div
                 key={s.label}

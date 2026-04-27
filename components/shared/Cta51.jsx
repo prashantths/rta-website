@@ -107,11 +107,6 @@ export function Cta51() {
           {/* Social proof strip */}
           <div className="mt-10 pt-8 border-t border-white/10 flex flex-wrap items-center justify-center gap-8">
             <div className="text-center">
-              <p className="text-2xl font-bold" style={{ color: "var(--accent)", fontFamily: "'Poppins', Arial, sans-serif" }}>300+</p>
-              <p className="text-white/40 text-xs uppercase tracking-wider mt-0.5" style={{ fontFamily: "'Poppins', Arial, sans-serif" }}>Hires Placed</p>
-            </div>
-            <div className="w-px h-8 bg-white/15" />
-            <div className="text-center">
               <p className="text-2xl font-bold" style={{ color: "var(--accent)", fontFamily: "'Poppins', Arial, sans-serif" }}>85–90%</p>
               <p className="text-white/40 text-xs uppercase tracking-wider mt-0.5" style={{ fontFamily: "'Poppins', Arial, sans-serif" }}>Offer Acceptance</p>
             </div>
